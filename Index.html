@@ -1,0 +1,58 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>
+  Sign Up
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <header  id="header">
+    
+   <nav   id="navbar">
+     <div class="logo">
+     <h1 class="icon">KBonline</h1>
+       </div>
+   </nav>
+ 
+  <div class="form" id="frm">
+    <form action="kbonline.php">
+      <h2>Sign Up</h2>
+   <div id="name">
+  <input type="text" name="name" placeholder=" Please type full name" required=""><a href="#" class="fa fa-user"></a>
+  </div>
+  <div id="email">
+<input type="email" name="email" placeholder=" Email type here" required=""><a href="#" class="fa fa-envelope"></a>
+</div>
+<div id="password">
+<input type="password" name="password" placeholder="Password type here.." required="" maxlength="8">
+  </div>
+  <div id="number">
+<input type="number" name="number" placeholder="phone number" required="" maxlength="10">
+</div>
+
+
+<div id="btn">
+<button class="submit" onclick="submit">Submit</button>
+<button class="reset" onclick="reset">Reset</button>
+</div>
+
+<div id="icon-1">
+ <a href="#" class="fa fa-facebook"></a>
+ <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-youtube"></a>
+ <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-yahoo"></a>
+</div>
+
+   
+    </form>
+     </header>
+  
+ 
+ <script src="script.js"></script>
+</body>
+</html>
