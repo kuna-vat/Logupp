@@ -1,58 +1,53 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>
-  Sign Up
-</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-  <header  id="header">
-    
-   <nav   id="navbar">
-     <div class="logo">
-     <h1 class="icon">KBonline</h1>
-       </div>
+  <head>
+    <title>
+      registration
+    </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+  
+  <header id="header">
+   <div class="icon">
+    KB <span>on</span>LINE
+   </div>
+  <div class="nv">
+   <nav id="nav">
+     <ul>
+   <li class="home"><a href="#">Home</a></li>
+   <li class="portfolio"><a href="#">Portfolio</a></li>
+   <li class="service"><a href="#">Services</a></li>
+   <li class="about"><a href="#">About</a></li>
+     </ul>
    </nav>
- 
-  <div class="form" id="frm">
-    <form action="kbonline.php">
-      <h2>Sign Up</h2>
-   <div id="name">
-  <input type="text" name="name" placeholder=" Please type full name" required=""><a href="#" class="fa fa-user"></a>
+  </div>
+  </header>
+  </div>
+  <div id="form">
+    <form action="kbonline.php">Registration
+      <div id="user">
+        <h2>Login form</h2>
+  <input type="text" name="nme" placeholder="Type your full name" required=""><a class="fa fa-user"></a>
   </div>
   <div id="email">
-<input type="email" name="email" placeholder=" Email type here" required=""><a href="#" class="fa fa-envelope"></a>
-</div>
-<div id="password">
-<input type="password" name="password" placeholder="Password type here.." required="" maxlength="8">
+  <input type="email" name="email" placeholder="Type your email-Id" required="[A,a-z,0-9"]><a class="fa fa-envelope"></a>
   </div>
-  <div id="number">
-<input type="number" name="number" placeholder="phone number" required="" maxlength="10">
-</div>
-
-
-<div id="btn">
-<button class="submit" onclick="submit">Submit</button>
-<button class="reset" onclick="reset">Reset</button>
-</div>
-
-<div id="icon-1">
- <a href="#" class="fa fa-facebook"></a>
- <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-youtube"></a>
- <a href="#" class="fa fa-instagram"></a>
-  <a href="#" class="fa fa-google"></a>
-    <a href="#" class="fa fa-yahoo"></a>
-</div>
-
-   
-    </form>
-     </header>
-  
+  <div id="paswd">
+  <input type="password" name="pass" placeholder="Please type pasword" required="" maxlength="8">
+  </div>
+    <div id="phone">
+  <input type="phone" name="pass" placeholder="Please type phone" required="" maxlength="11">
  
- <script src="script.js"></script>
-</body>
+  <input type="file" name="img" required="">
+ 
+ 
+  <div class="btnn">
+  <button class="btn">Submit</button>
+  </div>
+    </form>
+  </div>
+   <script src="Script.js"></script>
+  </body>
 </html>
